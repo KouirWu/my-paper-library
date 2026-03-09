@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Self-Supervised RGB-T Tracking with Modality-Interactive Tokens",
+    "authors": "Yong Zhou, Hancheng Zhu, Kunyang Sun",
+    "journal": "arXiv",
+    "year": 2025,
+    "tldr": "自监督 RGB-T 跟踪通过交互式 token 改进模态融合",
+    "relevanceNote": "减少对大规模标注的依赖，提高模态融合效率",
+    "doi": "10.48550/arXiv.2505.03507",
+    "topicTags": ["rgbt-tracking"]
+  },
+  {
+    "title": "MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking",
+    "authors": "Simiao Lai, Chang Liu, Jiawen Zhu, Ben Kang, Yang Liu",
+    "journal": "arXiv",
+    "year": 2024,
+    "tldr": "MambaVT 用于鲁棒 RGB-T 跟踪的时空上下文建模",
+    "relevanceNote": "引入 Mamba 架构进行时空上下文建模，解决 Transformer 的二次复杂度问题",
+    "doi": "10.48550/arXiv.2408.07889",
+    "topicTags": ["rgbt-tracking"]
+  },
+  {
+    "title": "Cross Fusion RGB-T Tracking with Bi-directional Adapter",
+    "authors": "Zhirong Zeng, Xiaotao Liu, Meng Sun, Hongyu Wang, Jing Liu",
+    "journal": "arXiv",
+    "year": 2024,
+    "tldr": "双向适配器跨模态融合 RGB-T 跟踪",
+    "relevanceNote": "有效平衡多模态和时间信息",
+    "doi": "10.48550/arXiv.2408.16979",
+    "topicTags": ["rgbt-tracking"]
+  },
+  {
+    "title": "Transformer-based RGB-T Tracking with Channel and Spatial Feature Fusion",
+    "authors": "Yunfeng Li, Bo Wang, Ye Li",
+    "journal": "arXiv",
+    "year": 2024,
+    "tldr": "基于 Transformer 的通道和空间特征融合 RGB-T 跟踪",
+    "relevanceNote": "充分挖掘 RGB 和 TIR 信息潜力",
+    "doi": "10.48550/arXiv.2405.03177",
+    "topicTags": ["rgbt-tracking"]
+  },
+  {
+    "title": "BTMTrack: Robust RGB-T Tracking via Dual-template Bridging",
+    "authors": "Zhongxuan Zhang, Bi Zeng, Xinyu Ni, Yimin Du",
+    "journal": "arXiv",
+    "year": 2025,
+    "tldr": "双模板桥接和时间模态候选消除的鲁棒 RGB-T 跟踪",
+    "relevanceNote": "整合 RGB 和热红外模态的互补优势",
+    "doi": "10.48550/arXiv.2501.03616",
+    "topicTags": ["rgbt-tracking"]
+  },
+  {
+    "title": "QueryTrack: Joint-Modality Query Fusion Network for RGBT Tracking",
+    "authors": "Huijie Fan, Zhencheng Yu, Qiang Wang, Baojie Fan, Yandong Tang",
+    "journal": "IEEE TIP",
+    "year": 2024,
+    "tldr": "联合模态查询融合网络用于 RGB-T 跟踪",
+    "relevanceNote": "解决特征提取与融合分离的问题",
+    "doi": "10.1109/TIP.2024.3393298",
+    "topicTags": ["rgbt-tracking"]
+  }
+]
