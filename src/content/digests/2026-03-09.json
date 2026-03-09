@@ -1,57 +1,57 @@
 [
   {
+    "title": "FANet: Quality-Aware Feature Aggregation Network for RGB-T Tracking",
+    "authors": "Yabin Zhu, Chenglong Li, Yijuan Lu, Liang Lin, Bin Luo",
+    "journal": "OpenAlex",
+    "year": 2018,
+    "tldr": "提出质量感知特征聚合网络（FANet）用于鲁棒RGB-T跟踪",
+    "relevanceNote": "解决传统方法在恶劣条件下的跟踪问题，通过互补视觉和热红外数据提高跟踪性能",
+    "doi": "10.1145/3123266.3123289",
+    "topicTags": ["rgb-t-tracking", "feature-aggregation"],
+    "pushed_at": "2026-03-09"
+  },
+  {
+    "title": "Learning discriminative update adaptive spatial-temporal regularized correlation filter for RGB-T tracking",
+    "authors": "Mingzheng Feng, Kechen Song, Yanyan Wang, Jie Liu, Yunhui Yan",
+    "journal": "Journal of Visual Communication and Image Representation",
+    "year": 2020,
+    "tldr": "学习判别更新自适应时空正则化相关滤波器用于RGB-T跟踪",
+    "relevanceNote": "通过时空正则化提高相关滤波器在RGB-T跟踪中的判别能力",
+    "doi": "10.1016/j.jvcir.2020.102881",
+    "topicTags": ["rgb-t-tracking", "correlation-filter"],
+    "pushed_at": "2026-03-09"
+  },
+  {
+    "title": "Fusing two-stream convolutional neural networks for RGB-T object tracking",
+    "authors": "Chenglong Li, Xiaohao Wu, Nan Zhao, Xiaochun Cao, Jin Tang",
+    "journal": "Neurocomputing",
+    "year": 2017,
+    "tldr": "融合双流卷积神经网络用于RGB-T目标跟踪",
+    "relevanceNote": "通过双流CNN结构有效融合RGB和热红外模态信息",
+    "doi": "10.1016/j.neucom.2017.11.068",
+    "topicTags": ["rgb-t-tracking", "two-stream-cnn"],
+    "pushed_at": "2026-03-09"
+  },
+  {
+    "title": "Multi-scale feature extraction and fusion with attention interaction for RGB-T tracking",
+    "authors": "Haijiao Xing, Wei Wei, Lei Zhang, Yanning Zhang",
+    "journal": "Pattern Recognition",
+    "year": 2024,
+    "tldr": "多尺度特征提取与注意力交互融合的RGB-T跟踪",
+    "relevanceNote": "通过多尺度特征提取和注意力机制提高RGB-T跟踪的准确性",
+    "doi": "10.1016/j.patcog.2024.110917",
+    "topicTags": ["rgb-t-tracking", "multi-scale", "attention"],
+    "pushed_at": "2026-03-09"
+  },
+  {
     "title": "Remote Photoplethysmography and Motion Tracking Convolutional Neural Network with Bidirectional Long Short-Term Memory",
     "authors": "Ling Kong, Kai Xie, Kaixuan Niu, Jianbiao He, Wei Zhang",
     "journal": "Italian National Conference on Sensors",
     "year": 2024,
-    "tldr": "提出非侵入式多模态融合疲劳检测方法，结合RGB和生理特征",
-    "relevanceNote": "准确率更高，有助于维护交通安全，推进智能交通领域发展",
+    "tldr": "提出基于双向LSTM的多模态融合疲劳检测方法",
+    "relevanceNote": "结合RGB相机和生理特征，提高疲劳检测准确率，有助于交通安全",
     "doi": "10.3390/s24020455",
     "topicTags": ["multimodal-fusion", "fatigue-detection"],
-    "pushed_at": "2026-03-09"
-  },
-  {
-    "title": "Unlocking the power of multi-modal fusion in 3D object tracking",
-    "authors": "Yue Hu",
-    "journal": "IET Computer Vision",
-    "year": 2025,
-    "tldr": "3D单目标跟踪在自动驾驶和机器人中起重要作用，传统方法主要依赖纯LiDAR点云数据",
-    "relevanceNote": "提出新方法整合图像模态的优势，填补多模态融合的空白",
-    "doi": "10.1049/cvi2.12335",
-    "topicTags": ["3d-tracking", "multimodal-fusion"],
-    "pushed_at": "2026-03-09"
-  },
-  {
-    "title": "Learning modality feature fusion via transformer for RGBT-tracking",
-    "authors": "Yujue Cai, Xiubao Sui, Guohua Gu, Qian Chen",
-    "journal": "红外学报",
-    "year": 2023,
-    "tldr": "基于Transformer学习多模态特征融合，提高RGB-T跟踪性能",
-    "relevanceNote": "通过注意力机制实现更有效的多模态信息融合",
-    "doi": "10.1016/j.infrared.2023.104819",
-    "topicTags": ["rgb-t-tracking", "transformer"],
-    "pushed_at": "2026-03-09"
-  },
-  {
-    "title": "Cross-Modal Attention Guided Enhanced Fusion Network for RGB-T Tracking",
-    "authors": "Jun Liu, Wei Ke, Shuai Wang, Da Yang, Hao Sheng",
-    "journal": "IEEE Signal Processing Letters",
-    "year": 2026,
-    "tldr": "视觉跟踪结合RGB和热红外模态，利用每种模态的有用信息实现更稳健的目标定位",
-    "relevanceNote": "强调CNN和Transformer基础上集成多模态信息，提高跟踪鲁棒性",
-    "doi": "10.1109/LSP.2025.3638688",
-    "topicTags": ["rgb-t-tracking", "attention-mechanism"],
-    "pushed_at": "2026-03-09"
-  },
-  {
-    "title": "Style-Swapping Guided Fusion for RGB-T Tracking: A Dual-Mamba Framework",
-    "authors": "Qiaoling Zhou, Dawei Ren, Yan Zhang, Xiaobing Yuan",
-    "journal": "2025 5th International Conference on Electronic Information Engineering and Computer Technology (EIECT)",
-    "year": 2025,
-    "tldr": "RGB-T跟踪基于Vision Transformer的方法被广泛采用，Mamba因其线性时间复杂度和较小的参数占用而兴起",
-    "relevanceNote": "相比ViT-based方法，Mamba提供更好的性能和效率平衡",
-    "doi": "10.1109/EIECT68017.2025.11331759",
-    "topicTags": ["rgb-t-tracking", "mamba"],
     "pushed_at": "2026-03-09"
   }
 ]
