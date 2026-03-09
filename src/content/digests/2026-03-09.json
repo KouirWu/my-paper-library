@@ -1,62 +1,57 @@
 [
   {
-    "title": "Self-Supervised RGB-T Tracking with Modality-Interactive Tokens",
-    "authors": "Yong Zhou, Hancheng Zhu, Kunyang Sun",
-    "journal": "arXiv",
+    "title": "Remote Photoplethysmography and Motion Tracking Convolutional Neural Network with Bidirectional Long Short-Term Memory",
+    "authors": "Ling Kong, Kai Xie, Kaixuan Niu, Jianbiao He, Wei Zhang",
+    "journal": "Italian National Conference on Sensors",
+    "year": 2024,
+    "tldr": "提出非侵入式多模态融合疲劳检测方法，结合RGB和生理特征",
+    "relevanceNote": "准确率更高，有助于维护交通安全，推进智能交通领域发展",
+    "doi": "10.3390/s24020455",
+    "topicTags": ["multimodal-fusion", "fatigue-detection"],
+    "pushed_at": "2026-03-09"
+  },
+  {
+    "title": "Unlocking the power of multi-modal fusion in 3D object tracking",
+    "authors": "Yue Hu",
+    "journal": "IET Computer Vision",
     "year": 2025,
-    "tldr": "自监督 RGB-T 跟踪通过交互式 token 改进模态融合",
-    "relevanceNote": "减少对大规模标注的依赖，提高模态融合效率",
-    "doi": "10.48550/arXiv.2505.03507",
-    "topicTags": ["rgbt-tracking"]
+    "tldr": "3D单目标跟踪在自动驾驶和机器人中起重要作用，传统方法主要依赖纯LiDAR点云数据",
+    "relevanceNote": "提出新方法整合图像模态的优势，填补多模态融合的空白",
+    "doi": "10.1049/cvi2.12335",
+    "topicTags": ["3d-tracking", "multimodal-fusion"],
+    "pushed_at": "2026-03-09"
   },
   {
-    "title": "MambaVT: Spatio-Temporal Contextual Modeling for robust RGB-T Tracking",
-    "authors": "Simiao Lai, Chang Liu, Jiawen Zhu, Ben Kang, Yang Liu",
-    "journal": "arXiv",
-    "year": 2024,
-    "tldr": "MambaVT 用于鲁棒 RGB-T 跟踪的时空上下文建模",
-    "relevanceNote": "引入 Mamba 架构进行时空上下文建模，解决 Transformer 的二次复杂度问题",
-    "doi": "10.48550/arXiv.2408.07889",
-    "topicTags": ["rgbt-tracking"]
+    "title": "Learning modality feature fusion via transformer for RGBT-tracking",
+    "authors": "Yujue Cai, Xiubao Sui, Guohua Gu, Qian Chen",
+    "journal": "红外学报",
+    "year": 2023,
+    "tldr": "基于Transformer学习多模态特征融合，提高RGB-T跟踪性能",
+    "relevanceNote": "通过注意力机制实现更有效的多模态信息融合",
+    "doi": "10.1016/j.infrared.2023.104819",
+    "topicTags": ["rgb-t-tracking", "transformer"],
+    "pushed_at": "2026-03-09"
   },
   {
-    "title": "Cross Fusion RGB-T Tracking with Bi-directional Adapter",
-    "authors": "Zhirong Zeng, Xiaotao Liu, Meng Sun, Hongyu Wang, Jing Liu",
-    "journal": "arXiv",
-    "year": 2024,
-    "tldr": "双向适配器跨模态融合 RGB-T 跟踪",
-    "relevanceNote": "有效平衡多模态和时间信息",
-    "doi": "10.48550/arXiv.2408.16979",
-    "topicTags": ["rgbt-tracking"]
+    "title": "Cross-Modal Attention Guided Enhanced Fusion Network for RGB-T Tracking",
+    "authors": "Jun Liu, Wei Ke, Shuai Wang, Da Yang, Hao Sheng",
+    "journal": "IEEE Signal Processing Letters",
+    "year": 2026,
+    "tldr": "视觉跟踪结合RGB和热红外模态，利用每种模态的有用信息实现更稳健的目标定位",
+    "relevanceNote": "强调CNN和Transformer基础上集成多模态信息，提高跟踪鲁棒性",
+    "doi": "10.1109/LSP.2025.3638688",
+    "topicTags": ["rgb-t-tracking", "attention-mechanism"],
+    "pushed_at": "2026-03-09"
   },
   {
-    "title": "Transformer-based RGB-T Tracking with Channel and Spatial Feature Fusion",
-    "authors": "Yunfeng Li, Bo Wang, Ye Li",
-    "journal": "arXiv",
-    "year": 2024,
-    "tldr": "基于 Transformer 的通道和空间特征融合 RGB-T 跟踪",
-    "relevanceNote": "充分挖掘 RGB 和 TIR 信息潜力",
-    "doi": "10.48550/arXiv.2405.03177",
-    "topicTags": ["rgbt-tracking"]
-  },
-  {
-    "title": "BTMTrack: Robust RGB-T Tracking via Dual-template Bridging",
-    "authors": "Zhongxuan Zhang, Bi Zeng, Xinyu Ni, Yimin Du",
-    "journal": "arXiv",
+    "title": "Style-Swapping Guided Fusion for RGB-T Tracking: A Dual-Mamba Framework",
+    "authors": "Qiaoling Zhou, Dawei Ren, Yan Zhang, Xiaobing Yuan",
+    "journal": "2025 5th International Conference on Electronic Information Engineering and Computer Technology (EIECT)",
     "year": 2025,
-    "tldr": "双模板桥接和时间模态候选消除的鲁棒 RGB-T 跟踪",
-    "relevanceNote": "整合 RGB 和热红外模态的互补优势",
-    "doi": "10.48550/arXiv.2501.03616",
-    "topicTags": ["rgbt-tracking"]
-  },
-  {
-    "title": "QueryTrack: Joint-Modality Query Fusion Network for RGBT Tracking",
-    "authors": "Huijie Fan, Zhencheng Yu, Qiang Wang, Baojie Fan, Yandong Tang",
-    "journal": "IEEE TIP",
-    "year": 2024,
-    "tldr": "联合模态查询融合网络用于 RGB-T 跟踪",
-    "relevanceNote": "解决特征提取与融合分离的问题",
-    "doi": "10.1109/TIP.2024.3393298",
-    "topicTags": ["rgbt-tracking"]
+    "tldr": "RGB-T跟踪基于Vision Transformer的方法被广泛采用，Mamba因其线性时间复杂度和较小的参数占用而兴起",
+    "relevanceNote": "相比ViT-based方法，Mamba提供更好的性能和效率平衡",
+    "doi": "10.1109/EIECT68017.2025.11331759",
+    "topicTags": ["rgb-t-tracking", "mamba"],
+    "pushed_at": "2026-03-09"
   }
 ]
